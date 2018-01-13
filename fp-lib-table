@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name HEADER_3X1)(type KiCad)(uri "$(KIPRJMOD)/HEADER_3X1.pretty")(options "")(descr ""))
+  (lib (name hole_4-40)(type KiCad)(uri "$(KIPRJMOD)/hole_4-40.pretty")(options "")(descr ""))
+  (lib (name TEENSY3X)(type Legacy)(uri "$(KIPRJMOD)/TEENSY3X.mod")(options "")(descr ""))
+)

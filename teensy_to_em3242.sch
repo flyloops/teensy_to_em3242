@@ -1,0 +1,239 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:teensy3
+LIBS:pin_array_3x1
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TEENSY3.1 U1
+U 1 1 5A594312
+P 3400 2650
+F 0 "U1" H 3400 4000 60  0000 C CNN
+F 1 "TEENSY3.1" H 3400 1000 60  0000 C CNN
+F 2 "TEENSY3X:TEENSY3X" H 3100 2850 60  0001 C CNN
+F 3 "" H 3100 2850 60  0000 C CNN
+	1    3400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PIN_ARRAY_3X1 J1
+U 1 1 5A59436A
+P 6050 1550
+F 0 "J1" H 6050 1750 50  0000 C CNN
+F 1 "PIN_ARRAY_3X1" H 6050 1350 50  0000 C CNN
+F 2 "HEADER_3X1:HEADER_3X1" H 6050 1550 50  0001 C CNN
+F 3 "" H 6050 1550 50  0001 C CNN
+	1    6050 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PIN_ARRAY_3X1 J2
+U 1 1 5A5943EB
+P 6050 2100
+F 0 "J2" H 6050 2300 50  0000 C CNN
+F 1 "PIN_ARRAY_3X1" H 6050 1900 50  0000 C CNN
+F 2 "HEADER_3X1:HEADER_3X1" H 6050 2100 50  0001 C CNN
+F 3 "" H 6050 2100 50  0001 C CNN
+	1    6050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PIN_ARRAY_3X1 J3
+U 1 1 5A59443E
+P 6050 2650
+F 0 "J3" H 6050 2850 50  0000 C CNN
+F 1 "PIN_ARRAY_3X1" H 6050 2450 50  0000 C CNN
+F 2 "HEADER_3X1:HEADER_3X1" H 6050 2650 50  0001 C CNN
+F 3 "" H 6050 2650 50  0001 C CNN
+	1    6050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PIN_ARRAY_3X1 J4
+U 1 1 5A59446D
+P 6050 3200
+F 0 "J4" H 6050 3400 50  0000 C CNN
+F 1 "PIN_ARRAY_3X1" H 6050 3000 50  0000 C CNN
+F 2 "HEADER_3X1:HEADER_3X1" H 6050 3200 50  0001 C CNN
+F 3 "" H 6050 3200 50  0001 C CNN
+	1    6050 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2950 2150 2950
+Text Label 2150 2950 2    60   ~ 0
+A0
+Wire Wire Line
+	2350 3050 2150 3050
+Text Label 2150 3050 2    60   ~ 0
+A1
+Wire Wire Line
+	2350 3150 2150 3150
+Text Label 2150 3150 2    60   ~ 0
+A2
+Wire Wire Line
+	2350 3250 2150 3250
+Text Label 2150 3250 2    60   ~ 0
+A3
+Wire Wire Line
+	2350 1450 2150 1450
+Wire Wire Line
+	2350 3950 2150 3950
+Text Label 2150 3950 2    60   ~ 0
+3V3
+Text Label 2150 1450 2    60   ~ 0
+GND
+Wire Wire Line
+	5850 1450 5650 1450
+Wire Wire Line
+	5850 1550 5650 1550
+Wire Wire Line
+	5850 1650 5650 1650
+Text Label 5650 1450 2    60   ~ 0
+GND
+Text Label 5650 1550 2    60   ~ 0
+3V3
+Text Label 5650 1650 2    60   ~ 0
+A0
+Wire Wire Line
+	5850 2000 5650 2000
+Wire Wire Line
+	5850 2100 5650 2100
+Wire Wire Line
+	5850 2200 5650 2200
+Text Label 5650 2000 2    60   ~ 0
+GND
+Text Label 5650 2100 2    60   ~ 0
+3V3
+Text Label 5650 2200 2    60   ~ 0
+A1
+Wire Wire Line
+	5850 2550 5650 2550
+Wire Wire Line
+	5850 2650 5650 2650
+Wire Wire Line
+	5850 2750 5650 2750
+Text Label 5650 2550 2    60   ~ 0
+GND
+Text Label 5650 2650 2    60   ~ 0
+3V3
+Text Label 5650 2750 2    60   ~ 0
+A2
+Wire Wire Line
+	5850 3100 5650 3100
+Wire Wire Line
+	5850 3200 5650 3200
+Wire Wire Line
+	5850 3300 5650 3300
+Text Label 5650 3100 2    60   ~ 0
+GND
+Text Label 5650 3200 2    60   ~ 0
+3V3
+Text Label 5650 3300 2    60   ~ 0
+A3
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 5A594CA6
+P 7500 1600
+F 0 "#FLG01" H 7500 1675 50  0001 C CNN
+F 1 "PWR_FLAG" H 7500 1750 50  0000 C CNN
+F 2 "" H 7500 1600 50  0001 C CNN
+F 3 "" H 7500 1600 50  0001 C CNN
+	1    7500 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 1600 7500 1750
+Wire Wire Line
+	7500 1750 7150 1750
+Text Label 7150 1750 2    60   ~ 0
+GND
+NoConn ~ 2350 1550
+NoConn ~ 2350 1650
+NoConn ~ 2350 1750
+NoConn ~ 2350 1850
+NoConn ~ 2350 1950
+NoConn ~ 2350 2050
+NoConn ~ 2350 2150
+NoConn ~ 2350 2250
+NoConn ~ 2350 2350
+NoConn ~ 2350 2450
+NoConn ~ 2350 2550
+NoConn ~ 2350 2650
+NoConn ~ 2350 2750
+NoConn ~ 2350 2850
+NoConn ~ 2350 3450
+NoConn ~ 2350 3550
+NoConn ~ 2350 3650
+NoConn ~ 2350 3750
+NoConn ~ 2350 3850
+NoConn ~ 2350 4050
+NoConn ~ 2350 4150
+NoConn ~ 4400 1450
+NoConn ~ 4400 1550
+NoConn ~ 4400 1650
+NoConn ~ 4400 1750
+NoConn ~ 4400 1850
+NoConn ~ 4400 2150
+NoConn ~ 4400 2250
+NoConn ~ 4400 2350
+NoConn ~ 4400 2450
+NoConn ~ 4400 2800
+NoConn ~ 4400 2900
+NoConn ~ 4400 3000
+NoConn ~ 4400 3100
+NoConn ~ 4400 3200
+NoConn ~ 4400 3300
+NoConn ~ 4400 3400
+NoConn ~ 4400 3550
+NoConn ~ 4400 3650
+NoConn ~ 4400 3750
+NoConn ~ 4400 3850
+NoConn ~ 4400 3950
+NoConn ~ 4400 4050
+NoConn ~ 4400 4150
+NoConn ~ 2350 3350
+$EndSCHEMATC
